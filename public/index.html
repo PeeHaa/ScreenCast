@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScreenCast library demo</title>
+    <link href='http://fonts.googleapis.com/css?family=Ranchers' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/style.css">
+    <script>
+      if (window!=top){top.location.href=location.href;}
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+      document.createElement('time');
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>ScreenCast</h1>
+    </header>
+    <div id="body">
+      <video autoplay="autoplay"></video>
+      <ul class="effects">
+        <li><a href="#" class="button blue" data-effect="grayscale">Grayscale</a></li>
+        <li><a href="#" class="button blue" data-effect="sepia">Sepia</a></li>
+        <li><a href="#" class="button blue" data-effect="blur">Blur</a></li>
+        <li><a href="#" class="button blue" data-effect="brightness">Brightness</a></li>
+        <li><a href="#" class="button blue" data-effect="contrast">Contrast</a></li>
+        <li><a href="#" class="button blue" data-effect="hue-rotate-90">Hue rotate (90°)</a></li>
+        <li><a href="#" class="button blue" data-effect="hue-rotate-180">Hue rotate (180°)</a></li>
+        <li><a href="#" class="button blue" data-effect="hue-rotate-270">Hue rotate (270°)</a></li>
+        <li><a href="#" class="button blue" data-effect="saturate">Saturate</a></li>
+        <li><a href="#" class="button blue" data-effect="invert">Invert</a></li>
+      </ul>
+    </div>
+    <script src="js/ScreenCast/ScreenCast.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
